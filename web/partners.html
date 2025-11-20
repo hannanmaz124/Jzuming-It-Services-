@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Partners</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+
+    .navbar {
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      padding: 10px 20px;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo {
+      height: 50px;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .nav-links a.active {
+      color: #00b050;
+    }
+
+    /* === IMAGE FULL WIDTH === */
+    .partner-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <!-- === NAVBAR === -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo-area">
+        <img src="images/logo.png" alt="Company Logo" class="logo">
+        <h1>JadeTech Solutions</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="partners.html" class="active">Partners</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- === SINGLE BIG IMAGE === -->
+  <section>
+    <img src="images/partners-banner.jpg" alt="Our Partners" class="partner-image">
+  </section>
+
+  <!-- === FOOTER === -->
+  <footer>
+    <p>&copy; 2025 JadeTech Solutions. All rights reserved.</p>
+  </footer>
+</body>
+</html>
