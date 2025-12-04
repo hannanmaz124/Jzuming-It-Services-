@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JZUMING IT SERVICES - Innovative IT & Electrical Solutions</title>
+  <link rel="stylesheet" href="pages.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body><!DOCTYPE html>
+<html lang="en">
+
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div></div>
+      <div class="top-right">
+      
+        <span><i class="fas fa-envelope"></i> info@jzumingit.com</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+
+      <div class="logo-area">
+        <img src="images/logo.png" alt="Jzuming IT Logo" class="logo">
+      </div>
+
+      <nav class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="electrical.html"class="active">Electrical services</a></li>
+          <li><a href="network.html">Network services</a></li>
+          <li><a href="Security.html">Security Services</a></li>
+        </ul>
+      </nav>
+
+      <a href="https://wa.me/60109119229" target="_blank" class="contact-btn">
+        <i class="fab fa-whatsapp"></i> Contact Us
+      </a>
+
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- =======================
+        MAIN (IMPORTANT)
+  ======================== -->
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="overlay"></div>
+      <div class="hero-text">
+        <h1>Electrical Services</h1>
+        <p>Reliable, efficient, and engineered to meet the demands of modern living</p>
+
+        <div class="hero-buttons">
+          <a href="about.html" class="btn btn-primary">Discover More</a>
+          <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- BACKGROUND NETWORK IMAGE -->
+    <section class="network-hero-full">
+      
+
+      <section class="network-services">
+
+        <div class="service-box">
+          <img src="services/electrical.png" alt="">
+          <h3>ELECTRICAL WORKS</h3>
+          <p class="desc">Offering comprehensive audio-visual solutions for presentations, conferences, and entertainment setups</p>
+        </div>
+
+        <div class="service-box">
+          <img src="services/aircond.png" alt="">
+          <h3>Air Conditioning Services</h3>
+          <p class="desc">Offering installation,maintenance, and repair of air conditioning systems to ensure optimal climate control and comfort</p>
+        </div>
+
+        <div class="service-box">
+          <img src="services/audio.png" alt="">
+          <h3>Audio-Visual System</h3>
+          <p class="desc">Offering comprehensive audio-visual solutions for presentations, conferences, and entertainment setups</p>
+        </div>
+
+      </section>
+
+    </section>
+
+  </main>
+  <!-- END MAIN -->
+
+<script>
+  // Scroll Animation
+  const descs = document.querySelectorAll('.desc');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      }
+    });
+  }, { threshold: 0.3 });
+
+  descs.forEach(d => observer.observe(d));
+</script>
+
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+
+        <div class="footer-col">
+          <div class="logo-area">
+            <img src="images/logo.png" alt="Jzuming IT Logo" class="logo">
+            <span class="company-name">JZUMING IT SERVICES</span>
+          </div>
+          <p>Your trusted partner for innovative IT and electrical solutions in Kelantan and beyond.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>           
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="network.html">IT & Network Solutions</a></li>
+            <li><a href="security.html">CCTV & Security Systems</a></li>
+            <li><a href="electrical.html">Electrical Works</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Contact Info</h3>
+          <ul class="contact-info">
+            <li><i class="fas fa-map-marker-alt"></i> Lot 2634, Tingkat 2, Jalan Sultan Yahya Petra, 15150 Kota Bharu, Kelantan</li>
+            <li><i class="fas fa-phone"></i> +6010-9119229</li>
+            <li><i class="fas fa-envelope"></i> info@jzumingit.com</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 JZUMING IT SERVICES | Your Complete IT & Electrical Partner</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+  
