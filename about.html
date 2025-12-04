@@ -1,63 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Us</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JZUMING IT SERVICES - Innovative IT & Electrical Solutions</title>
+  <link rel="stylesheet" href="pages.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-  <!-- === NAVBAR === -->
-  <header class="navbar">
-    <div class="container">
-      <div class="logo-area">
-        <img src="images/logo.png" alt="Company Logo" class="logo" />
-      
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div></div>
+      <div class="top-right">
+        
+        <span><i class="fas fa-envelope"></i> info@jzumingit.com</span>
       </div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+
+      <div class="logo-area">
+        <img src="images/logo.png" alt="Jzuming IT Logo" class="logo">
+      </div>
+
+      <nav class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="about.html"class="active">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+
+      <a href="https://wa.me/60109119229" target="_blank" class="contact-btn">
+        <i class="fab fa-whatsapp"></i> Contact Us
+      </a>
+
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+
     </div>
   </header>
 
-  <!-- === HERO SECTION === -->
-  <section class="hero">
-    <div class="overlay">
+
+  <!-- =======================
+        MAIN (IMPORTANT)
+  ======================== -->
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="overlay"></div>
       <div class="hero-text">
-        <h2>About Us</h2>
-        <p>Learn more about our mission, vision, and story</p>
+        <h1>About Us.</h1>
+        <p>Empowering businesses with smart technology, reliable support, and innovative ideas.</p>
+
+        <div class="hero-buttons">
+          <a href="about.html" class="btn btn-primary">Discover More</a>
+          <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+ <section class="about-hero">
+
+  <div class="flip-container">
+
+    <!-- CARD 1 - OBJECTIVE -->
+    <div class="flip-card">
+      <div class="flip-inner">
+
+        <!-- FRONT -->
+        <div class="flip-front" style="background-image: url('images/office.jpg');">
+          <h3>Objective</h3>
+        </div>
+
+        <!-- BACK -->
+        <div class="flip-back" style="background-image: url('images/office.jpg');">
+          <h3>Objective</h3>
+          <p>
+            Our objective is to deliver reliable and scalable IT & electrical solutions
+            that ensure customers receive long-term value, high performance, and 
+            professional service quality for every project.
+          </p>
+        </div>
+
       </div>
     </div>
-  </section>
 
-  <!-- === MISSION / VISION / OUR STORY SECTION === -->
-  <section class="about-section">
-    <div class="about-card">
-      <h3>Our Mission</h3>
-      <p>
-        To provide innovative and reliable solutions that meet our clients’ needs,
-        ensuring growth and long-term success through integrity, excellence,
-        and commitment.
-      </p>
+    <!-- CARD 2 - MISSION -->
+    <div class="flip-card">
+      <div class="flip-inner">
+
+        <div class="flip-front" style="background-image: url('images/about.png');">
+          <h3>Mission</h3>
+        </div>
+
+        <div class="flip-back" style="background-image: url('images/about.png');">
+          <h3>Mission</h3>
+          <p>
+         To deliver innovative and reliable IT, electrical, and air
+conditioning solutions that enhance the efficiency and
+security of our clients’ operations. We strive to provide
+exceptional service and cutting-edge technology to meet
+the diverse needs of our customers.
+          </p>
+        </div>
+
+      </div>
     </div>
 
-    <div class="about-card">
-      <h3>Our Vision</h3>
-      <p>
-        To be a trusted leader in our industry by empowering communities and
-        businesses through modern, sustainable, and impactful innovations.
-      </p>
+    <!-- CARD 3 - VISION -->
+    <div class="flip-card">
+      <div class="flip-inner">
+
+        <div class="flip-front" style="background-image: url('images/client.png');">
+          <h3>Vision</h3>
+        </div>
+
+        <div class="flip-back" style="background-image: url('images/client.png');">
+          <h3>Vision</h3>
+          <p>
+            To be the leading provider of innovative IT, electrical, and
+air conditioning solutions in Malaysia, empowering
+businesses and individuals with cutting-edge technology
+and exceptional service. We aim to set new standards in
+the industry through continuous improvement and
+innovation.
+          </p>
+        </div>
+
+      </div>
     </div>
 
-   
-  </section>
+  </div>
+</section>
 
-  <!-- === FOOTER === -->
+
+
+<!-- Footer -->
   <footer>
-    © 2025 JZUMING IT SERVICES | Your Complete IT & Electrical Partner
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <div class="logo-area">
+            <img src="images/logo.png" alt="Jzuming IT Logo" class="logo">
+            <span class="company-name">JZUMING IT SERVICES</span>
+          </div>
+          <p>Your trusted partner for innovative IT and electrical solutions in Kelantan and beyond.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Find us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="network.html">IT & Network Solutions</a></li>
+            <li><a href="security.html">CCTV & Security Systems</a></li>
+            <li><a href="electrical.html">Electrical Works</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contact Info</h3>
+          <ul class="contact-info">
+            <li><i class="fas fa-map-marker-alt"></i> Lot 2634, Tingkat 2, Jalan Sultan Yahya Petra, 15150 Kota Bharu, Kelantan</li>
+            <li><i class="fas fa-phone"></i> +6010-9119229</li>
+            <li><i class="fas fa-envelope"></i> info@jzumingit.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 JZUMING IT SERVICES | Your Complete IT & Electrical Partner</p>
+      </div>
+    </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
