@@ -1,76 +1,257 @@
+new index
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JZUMING IT SERVICES</title>
+  <title>JZUMING IT SERVICES - Innovative IT & Electrical Solutions</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <!-- Header -->
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div></div> <!-- kosong untuk align kanan -->
+      <div class="top-right">
+        
+        <span><i class="fas fa-envelope"></i> info@jzumingit.com</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN NAVBAR -->
   <header class="navbar">
-    <div class="container">
+    <div class="container nav-container">
+      
+      <!-- LEFT LOGO -->
       <div class="logo-area">
         <img src="images/logo.png" alt="Jzuming IT Logo" class="logo">
       </div>
-      <nav>
+
+      <!-- CENTER MENU -->
+      <nav class="nav-menu">
         <ul class="nav-links">
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
           <li><a href="projects.html">Projects</a></li>
-          <li><a href="clients.html">Partners</a></li>
-          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+
+      <!-- RIGHT BUTTON -->
+    <a href="https://wa.me/60109119229" target="_blank" class="contact-btn">
+      <i class="fab fa-whatsapp"></i> Contact Us
+ 
+  
+</a>
+
+
+      <!-- HAMBURGER -->
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="overlay">
-      <div class="hero-text">
-        <h2>Innovative IT & Electrical Solutions</h2>
-        <p>Empowering businesses with technology since 2016.</p>
-        <a href="about.html" class="btn">Discover More</a>
-      </div>
-    </div>
-  </section>
+   <!-- Hero -->
+ <section class="hero">
+  <div class="hero-bg"></div>
+  <div class="overlay"></div>
 
-  <!-- About -->
-  <section class="about container">
-    <div class="about-content">
-      <h2>Who We Are</h2>
-      <p>
-        Based in Kota Bharu, Kelantan, <strong>JZUMING IT SERVICES</strong> delivers reliable IT, electrical, and air conditioning
-        solutions for companies and individuals. With years of experience and a commitment to innovation, 
-        we strive to deliver quality and satisfaction in every project.
+  <div class="hero-text">
+    <h1>Innovative IT & Electrical Solutions</h1>
+    <p>Empowering businesses with cutting-edge technology since 2016.</p>
+
+    <div class="hero-buttons">
+      <a href="about.html" class="btn btn-primary">Discover More</a>
+      <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about-section">
+  <div class="about-container">
+    <div class="about-left animate">
+      <p class="about-quote">
+        “ provides integrated IT and electrical solutions, empowering businesses for the New Era.”.
       </p>
     </div>
-  </section>
+    <div class="about-right animate">
+      <h5>// ABOUT US</h5>
+      <h2>Technology For The Future And Sustainable Society</h2>
+      <p>
+        JZUMING IT SERVICES is a reputable provider of IT, electrical, and air conditioning solutions headquartered in Kota Bharu, Kelantan. Established in 2016, the company began as a dedicated computer repair service before expanding to meet the evolving technological demands of its clients.
+      </p>
+      <p>
+        Today, the company delivers a comprehensive portfolio of services, including computer sales, networking solutions, CCTV systems, electrical installations, and air conditioning services. Guided by a commitment to excellence and customer satisfaction, JZUMING IT SERVICES continues to serve both individuals and organizations with professionalism and reliability.
+      </p>
+      <a href="about.html" class="btn-learn">Learn More About Us</a>
+    </div>
+  </div>
+</section>
 
-  <!-- Services Overview -->
-  <section class="services container">
-    <h2>Our Expertise</h2>
-    <div class="service-grid">
-      <div class="service-box">
-        <h3>IT & Network Solutions</h3>
-        <p>Building robust network infrastructure for secure connectivity.</p>
+
+<!--SERVICES SECTION-->
+<section id="services" class="services-section">
+
+  <div class="services-header">
+    <h5>// OUR SERVICES</h5>
+    <h2>We Offer a Wide <br> Variety of IT Services</h2>
+  </div>
+
+  <!-- ===== SERVICE BOX 1 ===== -->
+  <div class="service-row">
+    <div class="service-image">
+      <img src="images/network.png" alt="">
+    </div>
+
+    <div class="service-content">
+      <h3>IT & Network</h3>
+      <p>
+        We provide professional IT support, computer services, network setup,
+        WiFi solutions and telephony systems for businesses and homes.
+      </p>
+      <a class="service-btn" href="network.html">LEARN MORE</a>
+    </div>
+  </div>
+
+  <!-- ===== SERVICE BOX 2 ===== -->
+  <div class="service-row reverse">
+    <div class="service-image">
+      <img src="images/security.png" alt="">
+    </div>
+
+    <div class="service-content">
+      <h3>Security & Access</h3>
+      <p>
+        We supply and install CCTV, surveillance systems, autogate and barrier
+        access systems to ensure maximum safety and convenience.
+      </p>
+      <a class="service-btn" href="security.html">LEARN MORE</a>
+    </div>
+  </div>
+
+  <!-- ===== SERVICE BOX 3 ===== -->
+  <div class="service-row">
+    <div class="service-image">
+      <img src="images/electrical.png" alt="">
+    </div>
+
+    <div class="service-content">
+      <h3>Electrical & Comfort</h3>
+      <p>
+        Professional electrical works, air-conditioning installation,
+        maintenance and audio-visual systems for home & commercial use.
+      </p>
+      <a class="service-btn" href="electrical.html">LEARN MORE</a>
+    </div>
+  </div>
+
+</section>
+
+
+  
+  <!--Client-->
+ <section class="trusted-section">
+    <h2 class="trusted-title">Trusted by Industry Leader:</h2>
+
+    <div id="logo-container" class="trusted-logos">
+        <!-- JS akan isi 5 gambar setiap 5 saat -->
+    </div>
+
+    <!-- Button untuk pergi ke projects.html -->
+    <a href="projects.html" class="btn-projects">See Our Projects</a>
+</section>
+
+
+
+  <!-- Partners -->
+
+  <section class="partners-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Trusted Partners</h2>
+        <div class="divider"></div>
+        <p>Collaborating with industry leaders to deliver exceptional solutions</p>
       </div>
-      <div class="service-box">
-        <h3>CCTV & Security Systems</h3>
-        <p>Advanced surveillance and access systems for total protection.</p>
-      </div>
-      <div class="service-box">
-        <h3>Electrical & Air Conditioning</h3>
-        <p>Professional installation, wiring, and maintenance for your premises.</p>
+      <div class="partners-slider">
+        <div class="partner-logo"><img src="images/hikvision.png" alt="Hikvision"></div>
+        <div class="partner-logo"><img src="images/dahua.png" alt="Dahua"></div>
+        <div class="partner-logo"><img src="images/tplink.png" alt="TP-Link"></div>
+        <div class="partner-logo"><img src="images/unv.png" alt="Uniview"></div>
+
+        <div class="partner-logo"><img src="images/ruijie.png" alt="Ruijie"></div>
+        <div class="partner-logo"><img src="images/timetec.png" alt="Ruijie"></div>
+        <div class="partner-logo"><img src="images/fingertec.png" alt="Ruijie"></div>
+        <div class="partner-logo"><img src="images/blackspider.png" alt="Ruijie"></div>
       </div>
     </div>
   </section>
+
+ <!-- Contact -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-content">
+      <h2>Ready to Transform Your Business with Technology?</h2>
+      <p>Contact us today for a free consultation and let's discuss how we can help your business grow.</p>
+      <a href="contact.html" class="btn btn-light">Find Us</a>
+    </div>
+  </div>
+</section>
+
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 JZUMING IT SERVICES | Your Complete IT & Electrical Partner</p>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <div class="logo-area">
+            <img src="images/logo.png" alt="Jzuming IT Logo" class="logo">
+            <span class="company-name">JZUMING IT SERVICES</span>
+          </div>
+          <p>Your trusted partner for innovative IT and electrical solutions in Kelantan and beyond.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Find us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="Network.html">IT & Network Solutions</a></li>
+            <li><a href="security.html">CCTV & Security Systems</a></li>
+            <li><a href="electrical.html">Electrical Works</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contact Info</h3>
+          <ul class="contact-info">
+            <li><i class="fas fa-map-marker-alt"></i> Lot 2634, Tingkat 2, Jalan Sultan Yahya Petra, 15150 Kota Bharu, Kelantan</li>
+            <li><i class="fas fa-phone"></i> +6010-9119229</li>
+            <li><i class="fas fa-envelope"></i> info@jzumingit.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 JZUMING IT SERVICES | Your Complete IT & Electrical Partner</p>
+      </div>
+    </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
